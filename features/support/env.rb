@@ -2,7 +2,7 @@ require 'rspec'
 require 'watir-webdriver'
 
 Before do
-  @b = Watir::Browser.new :safari 
+  @b = Watir::Browser.new :chrome 
 end
 
 After do

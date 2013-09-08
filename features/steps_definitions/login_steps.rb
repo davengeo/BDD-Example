@@ -13,6 +13,5 @@ end
 
 Then(/^I click on "(.*?)"$/) do |button_name|
   @b.button(id: button_name).click
-  puts @b.url
   @b.text.should include 'welcome2'
 end
